@@ -1,10 +1,11 @@
 const YEAR = new Date().getFullYear()
 
 export default {
+  darkMode: true,
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Alabhya Jindal.
-      <a href="/feed.xml">RSS</a>
+      {/* <a href="/feed.xml">RSS</a> */}
       <style jsx>{`
         a {
           float: right;
