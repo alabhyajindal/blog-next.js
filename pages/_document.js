@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Alabhya Jindal\'s blog',
     description: "I'm Alabhya, a frontend developer from India. Welcome to my blog!",
-    image: './public/banner.png'
+    image: 'https://alabhyajindal.com/static/banner.png'
   }
 
   return (

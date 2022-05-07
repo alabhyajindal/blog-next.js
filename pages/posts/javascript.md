@@ -3,7 +3,6 @@ title: Why you should learn JavaScript
 date: 2022/5/04
 description: Arguments in favor of JavaScript and why it's amazing.
 tag: web development
-author: Alabhya Jindal
 ---
 
 ## Test Title
