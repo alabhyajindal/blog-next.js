@@ -1,8 +1,9 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from 'react'
 
 const YEAR = new Date().getFullYear()
 export default {
-  titleSuffix: ' – Alabhya Jindal', 
+  // darkMode: true,
+  titleSuffix: ' – Alabhya Jindal',
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
       <time>{YEAR}</time> © Alabhya Jindal

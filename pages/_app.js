@@ -1,19 +1,18 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import 'nextra-theme-blog/style.css'
 import Head from 'next/head'
 
 import '../styles/main.css'
 
 export default function Nextra({ Component, pageProps }) {
-
   useEffect(() => {
-    localStorage.setItem('theme', 'system')
+    localStorage.setItem('theme', 'light')
   }, [])
 
   return (
     <>
-      <Head>  
-      <link
+      <Head>
+        <link
           rel="alternate"
           type="application/rss+xml"
           title="RSS"
