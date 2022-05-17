@@ -5,10 +5,6 @@ import Head from 'next/head'
 import '../styles/main.css'
 
 export default function Nextra({ Component, pageProps }) {
-  useEffect(() => {
-    localStorage.setItem('theme', 'light')
-  }, [])
-
   return (
     <>
       <Head>

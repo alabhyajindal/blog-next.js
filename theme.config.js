@@ -2,7 +2,6 @@ import React, { useEffect } from 'react'
 
 const YEAR = new Date().getFullYear()
 export default {
-  // darkMode: true,
   titleSuffix: ' – Alabhya Jindal',
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
